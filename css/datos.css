@@ -50,6 +50,8 @@ background-color: #e6e6fa;
 text-align: center;
 border-top: 2px solid blueviolet;
 border-bottom: 2px solid blueviolet;
+display: flex;
+justify-content: center;
 
 }
 
@@ -102,9 +104,10 @@ h1:hover{
 
 h1 {
     transition: color 0.8s linear 0.2s;
+    
 }
 
-.sobrerei{ 
+.datos{ 
     background:linear-gradient(to top right, #e6e6fa,rgb(185, 90, 197));
     padding: 20px;
     width: 900px;
@@ -115,17 +118,13 @@ h1 {
     border-bottom:5px dashed blueviolet;
     border-left:5px dashed blueviolet;
 
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    flex-direction: column;
 }
 
 
 
 
 
-.cajasobrerei{ 
+.cajadatos{ 
     float:right;
     margin-right: 40px;
     width: 400px;
@@ -135,15 +134,34 @@ h1 {
     align-self: center;
     overflow:hidden;
     cursor: pointer;
+  
     }
 
 
-    .sobrerei strong
+    .cajadatos2{ 
+     
+        border-radius: 20%;
+    
+        
+        }
+
+        .cajadatos2:hover{
+               
+        transform: rotate(-10deg) scale(1.5);
+        transition-duration: 0.5s;
+        }
+.scout{
+    display: flex;
+    justify-content:center;
+}
+    .datos strong
     { 
        color:#1e90ff;
        text-shadow: 0px 0px 15px #fffbfb;
+       display: flex;
+justify-content: center;
     }
-    .cajasobrerei:hover{
+    .cajadatos:hover{
         -webkit-transform:scale(1.5);
         transform:scale(1.5);
     
@@ -158,51 +176,6 @@ body
 }
 
 
-.Frases{ 
-    background:linear-gradient(to top right,rgb(185, 90, 197), #e6e6fa);
-    padding: 20px;
-    width: 900px;
-    height: auto;
-    margin: 50px auto;
-    border-top: 5px dashed blueviolet;
-    border-right: 5px dashed blueviolet;
-    border-bottom:5px dashed blueviolet;
-    border-left:5px dashed blueviolet;
-
- 
-}
-
-
-    .Frases h1{
-        display:flex;
-        justify-content:center;
-        align-self: center;
-   
-    }
-.Frases h3,strong{
-    color:#000000;
-    text-shadow: 0px 0px 15px #7100f1;  
-}
-
-.cajaFrases{ 
-    float:right;
-    margin-right: 40px;
-    width: 400px;
-    border-radius: 20%;
-    display:flex;
-    justify-content:flex-start;
-    align-self: flex-start;
-    overflow:hidden;
-    cursor: pointer;
-    
-    }
-
-    .cajaFrases:hover{
-    
-        transform: rotate(-10deg) scale(0.9);
-        transition-duration: 0.5s;
-        
-        }
 .foot img{
     justify-content:center;
     cursor: pointer;
